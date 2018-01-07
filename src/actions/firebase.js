@@ -66,7 +66,7 @@ export function logout() {
   };
 }
 
-export function register() {
+export function register(email, password) {
   return dispatch => {
     firebase.auth().createUserWithEmailAndPassword(email, password).then(function(user){
       dispatch({

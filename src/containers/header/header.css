@@ -1,0 +1,16 @@
+@import '../../css/variables';
+
+.header {
+  background-color: var(--main-highlight-color);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.logo {
+  font-family: var(--logo-font-family);
+  font-size: 1.8em;
+  font-weight: normal;
+}
